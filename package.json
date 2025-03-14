@@ -1,0 +1,39 @@
+{
+  "name": "@opsimathically/deferred",
+  "version": "1.0.0",
+  "description": "Utility classes for working with the asynchronous deferral pattern.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "test": "npx tsx ./tests/Deferred.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opsimathically/deferred.git"
+  },
+  "keywords": [
+    "Defer",
+    "deferral",
+    "pattern"
+  ],
+  "author": "Jason Medeiros",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/opsimathically/deferred/issues"
+  },
+  "homepage": "https://github.com/opsimathically/deferred#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "@types/wtfnode": "^0.7.3",
+    "esbuild": "^0.25.0",
+    "eslint": "^9.20.1",
+    "globals": "^15.14.0",
+    "prettier": "^3.5.0",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.0",
+    "wtfnode": "^0.10.0"
+  }
+}
