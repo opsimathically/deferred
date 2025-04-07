@@ -1,8 +1,10 @@
 {
   "name": "@opsimathically/deferred",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility classes for working with the asynchronous deferral pattern.",
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "test": "npx tsx ./tests/Deferred.test.ts"
